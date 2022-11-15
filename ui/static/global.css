@@ -1,0 +1,60 @@
+body{
+    font-family: Roboto,Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857;
+    color: #333;
+    background-color: #fff;
+ }
+ 
+ .nav2 .nav-item a{
+    font-size: 13px;
+    color:#3d3d3d;
+ }
+   
+ /* Footer Section CSS */
+ 
+ 
+ a.Register{
+       height:25px;
+       width:max-content;
+       font-size: 11px;
+ }
+ 
+ .fs-9{
+    font-size:11px
+ }
+ 
+ .fs-8{
+    font-size:12px
+ }
+ 
+ .fs-7{
+    font-size:13px;
+ }
+ 
+ .text-light{
+    color:#a9a9a9 !important;
+ }
+ 
+ .text-blue{
+    color:#071d49;
+ }
+ .text-primary{
+   color: #ffc107 !important;
+ }
+
+ /*Auction-Items CSS*/
+ @media screen and (min-width:992px){
+   .lot .lot-img img{
+      width:160px;
+      height:120px;
+   }
+}
+
+
+@media screen and (max-width:991px){
+   .lot .lot-img img{
+      width:128px;
+      height:96px;
+   }
+}
