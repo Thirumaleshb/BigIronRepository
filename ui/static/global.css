@@ -31,6 +31,8 @@ body{
  .fs-7{
     font-size:13px;
  }
+
+
  
  .text-light{
     color:#a9a9a9 !important;
@@ -43,6 +45,14 @@ body{
    color: #ffc107 !important;
  }
 
+ .text-darkblue{
+   color:#30c;
+ }
+
+ .text-lightDark{
+   color:#333;
+
+ }
  /*Auction-Items CSS*/
  @media screen and (min-width:992px){
    .lot .lot-img{
@@ -56,5 +66,74 @@ body{
    .lot .lot-img{
       width:128px;
       height:96px;
+   }
+}
+
+
+
+/*Carousel Items*/
+.active , button:hover{
+ color: #000 !important;
+  
+}
+
+.carousel-indicators{
+   position:absolute;
+   top:98%;
+}
+
+
+
+
+@media screen and (min-width:1120px){
+   #carouselExampleIndicators{
+      width:854px;
+      height:214px;
+   }
+   #auctionItems{
+      width:854px;
+     
+   }
+      
+}
+
+
+
+@media screen and (min-width:992px) and (max-width:1119px){
+  #carouselExampleIndicators{
+      width:707px;
+      height:176px;
+   }
+   #auctionItems{
+      width:707px;
+   }
+
+
+}
+
+@media screen and (min-width:768px) and (max-width:992px){
+   #carouselExampleIndicators{
+      width:539px;
+      height:135px
+   }
+   #auctionItems{
+   width:539px;
+   }
+
+
+}
+
+/**Highlighted Auction Items*/
+@media screen and (min-width:1200px){
+   .auctionImage{
+      width:200px;
+      
+   }
+}
+
+@media screen and (min-width:767px ) and (max-width:1199pX){
+   .auctionImage{
+      width:160px;
+     
    }
 }
